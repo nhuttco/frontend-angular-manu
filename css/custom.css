@@ -704,3 +704,14 @@ body .cplgr-listing-details-slider-wrapper .slider-content .rating-area ul li i.
 body{
   overflow-y: scroll
 }
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-header .close {
+  margin-top: -12px;
+}
+.modal .modal-dialog button.close span {
+    font-size: 28px;
+    font-weight: 300;
+    top: -27px;
+}
