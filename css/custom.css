@@ -707,11 +707,27 @@ body{
 .modal-backdrop {
   background-color: rgba(0, 0, 0, 0.5);
 }
+.modal-header {
+    padding: 10px;
+}
 .modal-header .close {
   margin-top: -12px;
+}
+.modal-title{
+  font-size: 16px;
+}
+.modal-title img{
+  width: 40px;
 }
 .modal .modal-dialog button.close span {
     font-size: 28px;
     font-weight: 300;
-    top: -27px;
+    top: -26px;
+}
+.form-control{
+  border-radius: 50px;
+}
+.default-bg {
+    background: #fefefe;
+    color: #333;
 }
