@@ -1,3 +1,6 @@
+*{
+  font-family: Arial !important
+}
 /*reset*/
 li{
   text-align: left;
