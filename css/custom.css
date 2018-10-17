@@ -742,3 +742,6 @@ body{
 .footer-copyright{
   padding: 0;
 }
+textarea {
+  resize: none;
+}
