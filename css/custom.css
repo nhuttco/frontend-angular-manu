@@ -745,3 +745,86 @@ body{
 textarea {
   resize: none;
 }
+@media (max-width: 767px)
+{
+  .multi-search{
+    position: absolute !important;
+    top: 0;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 10px !important;
+    background: transparent
+  }
+  .multi-search .form-control{
+    height: 42px;
+  }
+  .multi-search .btn-search{
+    position: absolute;
+    top: 11px;
+    right: 11px;
+  }
+  .navbar-collapse.collapse{
+    padding-top: 50px;
+  }
+  .cplgr-listing-details-container .cplgr-listing-reviews .cplgr-listing-review-body .listing-review.no-avatar li .review-content{
+    width: 100%;
+  }
+  .cplgr-listing-details-container .cplgr-listing-reviews .cplgr-listing-review-body .listing-review li .review-content .review-images-block .review-images{
+    width: 50%;
+  }
+  .cplgr-listing-details-container .cplgr-listing-reviews .cplgr-listing-review-body .listing-review li .avatar-block{
+    float: none;
+    margin-right: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .cplgr-listing-details-container .cplgr-listing-reviews .cplgr-listing-review-body .listing-review li .avatar-block .avatar-thumb{
+    margin: auto;
+  }
+  .cplgr-listing-details-container .cplgr-listing-reviews .cplgr-listing-review-body .listing-review li .review-content{
+    float: none;
+    width: 100%;
+  }
+  .cplgr-listing-details-container .cplgr-listing-reviews .cplgr-listing-review-body .listing-review li .icon-block{
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+  .cplgr-listing-details-container .cplgr-listing-reviews .cplgr-listing-review-body {
+    padding: 10px;
+  }
+  .user-detail .container-fluid{
+    margin: 10px;
+  }
+  .user-detail.stadium .icon-block.status,
+  .user-detail.stadium .icon-block.level{
+    position: static;
+    margin: auto
+  }
+  .cplgr-listing-details-slider-wrapper .slider-content .rating-area{
+    margin-right: 0;
+  }
+  .cplgr-listing-details-container {
+        margin-top: 20px;
+  }
+  .grid-item {
+    float: none;
+    width: 100%;
+    margin: 10px 0;
+  }
+  .user-detail .cplgr-listing-details-container .cplgr-listing-reviews .cplgr-listing-review-body .listing-review li .review-content {
+    width: 100%;
+    padding: 0;
+  }
+  .modal .modal-dialog{
+    width: 100%;
+  }
+  .user-detail .icon-block.status,
+  .user-detail .icon-block.level{
+    position: static;
+    margin: auto;
+  }
+  .slogan{
+    margin-top: 20px;
+  }
+}
