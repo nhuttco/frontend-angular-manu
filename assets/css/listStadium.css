@@ -72,3 +72,7 @@ body {
   .diachi{
           overflow:auto;
       }
+  .content-describe{
+    font-size: 13px;
+    color: grey;
+  }
