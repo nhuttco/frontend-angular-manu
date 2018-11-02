@@ -913,3 +913,13 @@ textarea {
   border: none;
   width: 100%;
 }
+/* FB_UI_Dialog */
+.fb_dialog_advanced{
+
+}
+.FB_UI_Dialog ._480u{
+  display: none !important;
+}
+.FB_UI_Dialog ._3stt ._3sts{
+  width: 20%;
+}
