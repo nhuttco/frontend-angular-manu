@@ -921,7 +921,7 @@ textarea {
   display: block;
   margin: auto ;
 }
-.fb_dialog.fb_dialog_advanced{
+.fb_dialog.fb_dialog_advanced:not(.fb_customer_chat_bubble_animated_no_badge){
   width: 100% !important;
   height: 100% !important;
   left:0 !important;
@@ -930,9 +930,9 @@ textarea {
   border-radius: 0;
   position: fixed;
 }
-.fb_dialog.fb_dialog_advanced .fb_dialog_content{
+.fb_dialog.fb_dialog_advanced:not(.fb_customer_chat_bubble_animated_no_badge) .fb_dialog_content{
   background: transparent
 }
-.fb_dialog.fb_dialog_advanced + .fb_dialog.fb_dialog_advanced{
+.fb_dialog.fb_dialog_advanced:not(.fb_customer_chat_bubble_animated_no_badge) + .fb_dialog.fb_dialog_advanced:not(.fb_customer_chat_bubble_animated_no_badge){
   display: none !important
 } 
