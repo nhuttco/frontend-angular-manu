@@ -13,8 +13,8 @@ $(document).ready(function () {
 
         if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) {
             $('html').addClass('client-ie');
-            $('input[class^=switch]').each(function(){
-               $(this).wrap('<div class="switch-wrap"></div>').after('<span class="switch-indicator"></span>');
+            $('input[class^=switch]').each(function () {
+                $(this).wrap('<div class="switch-wrap"></div>').after('<span class="switch-indicator"></span>');
             });
         } else // If another browser, return 0
         {
@@ -99,10 +99,10 @@ $(document).ready(function () {
         height: 200,
         menubar: false,
         plugins: [
-    'advlist autolink lists link image charmap print preview anchor',
-    'searchreplace visualblocks code fullscreen',
-    'insertdatetime media table contextmenu paste code'
-    ],
+            'advlist autolink lists link image charmap print preview anchor',
+            'searchreplace visualblocks code fullscreen',
+            'insertdatetime media table contextmenu paste code'
+        ],
         toolbar: 'bold italic | alignleft aligncenter alignright alignjustify | link image | undo redo',
 
     });
@@ -223,8 +223,8 @@ $(document).ready(function () {
 
         return false;
     });
-    $('#abcTest').click(function(){
+    $('#abcTest').click(function () {
         alert(1);
     })
-    
+
 });

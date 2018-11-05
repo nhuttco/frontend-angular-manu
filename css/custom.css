@@ -917,9 +917,22 @@ textarea {
 .fb_dialog_advanced{
 
 }
-.FB_UI_Dialog ._480u{
-  display: none !important;
+.FB_UI_Dialog{
+  display: block;
+  margin: auto ;
 }
-.FB_UI_Dialog ._3stt ._3sts{
-  width: 20%;
+.fb_dialog.fb_dialog_advanced{
+  width: 100% !important;
+  height: 100% !important;
+  left:0 !important;
+  top: 0 !important;
+  padding-top:10%;
+  border-radius: 0;
+  position: fixed;
 }
+.fb_dialog.fb_dialog_advanced .fb_dialog_content{
+  background: transparent
+}
+.fb_dialog.fb_dialog_advanced + .fb_dialog.fb_dialog_advanced{
+  display: none !important
+} 
