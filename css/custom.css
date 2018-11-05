@@ -914,7 +914,7 @@ textarea {
   width: 100%;
 }
 /* FB_UI_Dialog */
-.fb_dialog_advanced{
+/* .fb_dialog_advanced{
 
 }
 .FB_UI_Dialog{
@@ -936,4 +936,4 @@ textarea {
 }
 .fb_dialog.fb_dialog_advanced:not(.fb_customer_chat_bubble_animated_no_badge) + .fb_dialog.fb_dialog_advanced:not(.fb_customer_chat_bubble_animated_no_badge){
   display: none !important
-} 
+}  */
