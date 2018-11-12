@@ -925,3 +925,10 @@ textarea {
 .user-detail .cplgr-listing-details-slider-wrapper .slider-content .primary-bg:hover i{
   color: #244b90 !important;
 }
+.kep-login-facebook.metro{
+    padding: 5px 15px;
+    font-size: 14px;
+}
+.navbar-right .kep-login-facebook.metro{
+   padding: 25px 15px;
+}
